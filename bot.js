@@ -164,4 +164,15 @@ client.on("message", message => {
 
 
 
+//////////////////////////////
+/////////////////////////////
+client.on('ready', () => {
+client.user.setGame('Quran II .help','https://www.twitch.tv/kemo355');
+console.log('Logging into discord..');
+console.log(`
+By Ҝ€₥σ
+`);
+
+});
+
 client.login(process.env.BOT_TOKEN);
